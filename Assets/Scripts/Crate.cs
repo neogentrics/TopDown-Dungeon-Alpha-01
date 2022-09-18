@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Crate : Fighter
 {
+    [SerializeField] AudioSource destroySoundEffect;
     protected override void Death()
     {
-        Destroy(gameObject);
+        destroySoundEffect.Play();
+        Destroy(gameObject);        
     }
 }

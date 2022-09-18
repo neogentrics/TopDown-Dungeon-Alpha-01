@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fighter
   - SpawnPoint
+  - MovePoint
   layers:
   - Default
   - TransparentFX

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 87e8368fd6839e243b4c849cfd26319a
+guid: a3792bd365a612a40b35386545d932e4
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -10,7 +10,8 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - 7:12 Serif
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 87e8368fd6839e243b4c849cfd26319a, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

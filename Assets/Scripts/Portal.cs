@@ -4,7 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class Portal : Collidable
 {
+    
     public string[] sceneNames;
+    [SerializeField] AudioSource portalSoundEffect;
 
     protected override void OnCollide(Collider2D coll)
     {
@@ -12,6 +14,7 @@ public class Portal : Collidable
         {
             // Teleport Player
             GameManager.instance.SaveState();
+            portalSoundEffect.Play();
             string sceneName = sceneNames[Random.Range(0, sceneNames.Length)];
             SceneManager.LoadScene(sceneName);
         }

@@ -10,6 +10,7 @@ public class Enemy : Mover
     // Experience
     public int xpValue = 3;
     public int goldAmount = 5;
+    // public int rubyAmount = 0;
 
     // Logic
     public float triggerLength = 0.3f;
@@ -23,15 +24,19 @@ public class Enemy : Mover
     public ContactFilter2D filter;
     private BoxCollider2D hitbox;
     private Collider2D[] hits = new Collider2D[10];
+    
 
 
     protected override void Start()
     {
         base.Start();
+
         playerTransform = GameManager.instance.player.transform;
         startingPosition = transform.position;
         hitbox = transform.GetChild (0).GetComponent<BoxCollider2D>();
     }
+
+    
 
     private void FixedUpdate()
     {
@@ -89,8 +94,11 @@ public class Enemy : Mover
         GameManager.instance.GrantXp(xpValue);
         GameManager.instance.ShowText("+" + xpValue + " XP!", 25, Color.green, transform.position, Vector3.up * 50, 1.0f);
         GameManager.instance.gold += goldAmount;
-        GameManager.instance.ShowText("+" + goldAmount + " Gold!", 25, Color.yellow, transform.position, Vector3.up * 25, 1.5f);
-    }
+        GameManager.instance.ShowText("+" + goldAmount + " Gold!", 25, Color.yellow, transform.position, Vector3.up * 75, 1.5f);
+       /* GameManager.instance.ruby += rubyAmount;
+        GameManager.instance.ShowText("+" + rubyAmount + " Ruby!", 30, Color.magenta, transform.position, Vector3.up * 50, 1.5f);
+       */
+     }
 
 
     

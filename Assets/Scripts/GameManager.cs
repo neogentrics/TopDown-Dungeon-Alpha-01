@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,7 +14,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
             Destroy(player.gameObject);
-           // Destroy(floatingTextManager.gameObject);     // Need to fix this
+            Destroy(FloatingTextmanager.gameObject);     // Need to fix this
             Destroy(hud);
             Destroy(menu);
             return;
@@ -26,7 +27,31 @@ public class GameManager : MonoBehaviour
         SceneManager.sceneLoaded += OnSceneLoaded;
         
          
-    }    
+    }
+
+    private void Update()
+    {
+        goldHUDText.text = (instance.gold.ToString() + " :Gold Coins");
+        rubyHUDText.text = (instance.ruby.ToString() + " :Ruby Coins");
+        levelText.text = ("LEVEL " + instance.GetCurrentLevel().ToString());
+        hitpointText.text = "Health " + instance.player.hitpoints.ToString() + " / " + player.maxHitpoint.ToString();        
+        int weaponLevel = instance.weapon.weaponLevel;
+        weaponDamageHUDText.text = ("DAMAGE " + instance.weapon.damagePoint[weaponLevel].ToString());
+        XPSystem();
+
+        if (Input.GetKeyUp(KeyCode.P))
+        {
+            if (CharacterMenu.GameIsPaused)
+            {
+                CharacterMenu.Resume();
+            }
+            else
+            {
+                CharacterMenu.Paused();
+            }
+        }
+
+    }
 
     // Resources
 
@@ -34,17 +59,22 @@ public class GameManager : MonoBehaviour
     public List<Sprite> weaponSprites;
     public List<int> weaponPrices;
     public List<int> xpTable;
+    public TextMeshProUGUI hitpointText, levelText, goldHUDText, rubyHUDText, xpHUDText, weaponDamageHUDText;
+
+    [SerializeField] AudioSource getHitSoundEffect;
+    [SerializeField] AudioSource levelUpSoundEffect;
 
     // References
     public Player player;
     public Weapon weapon;
     public floatingTextManager FloatingTextmanager;
-    public RectTransform hitpointBar;
-    public GameObject hud;
-    public GameObject menu;
+    public CharacterMenu CharacterMenu;
+    public RectTransform hitpointBar, xpHUDBar;
+    public GameObject hud, menu, deathMenu, deathMusic;
 
     // Logic
     public int gold;
+    public int ruby;
     public int experience;
 
 
@@ -76,7 +106,8 @@ public class GameManager : MonoBehaviour
     public void OnHitPointChange()
     {
         float ratio = (float)player.hitpoints / (float)player.maxHitpoint;
-        hitpointBar.localScale = new Vector3(1, ratio, 1);
+        hitpointBar.localScale = new Vector3(ratio, 1, 1);
+        getHitSoundEffect.Play();
     }
 
     // Experience System
@@ -116,17 +147,52 @@ public class GameManager : MonoBehaviour
 
         if (currLevel < GetCurrentLevel())
             OnLevelUp();
+
+
     }
     public void OnLevelUp()
     {
         player.OnLevelUp();
         OnHitPointChange();
+        levelUpSoundEffect.Play();
     }
 
-    // On Scene Loaded
-    public void OnSceneLoaded(Scene s, LoadSceneMode mode)
+    private void XPSystem()
+    {
+        int currLevel = GetCurrentLevel();
+        if (currLevel == xpTable.Count)
+        {
+            xpHUDText.text = experience.ToString() + " Max XP Level"; // Display total XP 
+            xpHUDBar.localScale = Vector3.one;
+        }
+        else
+        {
+            int prevLevelXp = GameManager.instance.GetXpToLevel(currLevel - 1);
+            int currLevelXp = GameManager.instance.GetXpToLevel(currLevel);
+
+            int diff = currLevelXp - prevLevelXp;
+            int currXPIntoLevel = GameManager.instance.experience - prevLevelXp;
+
+            float completionRatio = (float)currXPIntoLevel / (float)diff;            
+            xpHUDBar.localScale = new Vector3(completionRatio, 1, 1);
+            xpHUDText.text = (currXPIntoLevel.ToString() + " / " + diff + " xp");
+        }
+    }
+
+// On Scene Loaded
+public void OnSceneLoaded(Scene s, LoadSceneMode mode)
     {
         player.transform.position = GameObject.Find("SpawnPoint").transform.position;
+    }
+
+    // Death Menu & Respawn
+    public void Respawn()
+    {
+        deathMenu.SetActive(false);
+        Time.timeScale = 1.0f;
+        deathMusic.SetActive(false);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+        player.Respawn();
     }
 
     // Save State "Save Game Data"

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HealingFountain : Collidable
 {
-    
+    [SerializeField] AudioSource healingSoundEffect;
 
     public int healingAmount = 100;
 
@@ -20,6 +20,7 @@ public class HealingFountain : Collidable
         {
             lastHeal = Time.time;
             GameManager.instance.player.Heal(healingAmount);
+            healingSoundEffect.Play();
         }
     }
 }

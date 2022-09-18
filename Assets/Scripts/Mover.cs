@@ -7,14 +7,15 @@ public abstract class Mover : Fighter
     protected BoxCollider2D boxCollider;
     protected Vector3 moveDelta;
     protected RaycastHit2D hit;
-    protected float ySpeed = 0.75f;
-    protected float xSpeed = 1.0f;
+    public float ySpeed = 0.75f;
+    public float xSpeed = 1.0f;
+
+   
 
     protected virtual void Start()
     {
         boxCollider = GetComponent<BoxCollider2D>();
     }
-
 
     protected virtual void UpdateMotor(Vector3 input)
     {
@@ -49,4 +50,6 @@ public abstract class Mover : Fighter
             transform.Translate(moveDelta.x * Time.deltaTime, 0, 0);
         }
     }
+
+    
 }

@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.ShaderGraph.Drawing.Inspector.PropertyDrawers;
 using UnityEngine;
 
 public class Weapon : Collidable
@@ -8,6 +7,7 @@ public class Weapon : Collidable
     // Damage Struct
     public int[] damagePoint = { 3, 6, 9, 12, 15, 18, 25};
     public float[] pushForce = { 2.0f, 2.3f, 2.5f, 3.2f, 3.4f, 3.8f, 4.2f};
+    
 
     // Upgrade
     public int weaponLevel = 0;
@@ -17,6 +17,8 @@ public class Weapon : Collidable
     private Animator anim;
     private float coolDown = 0.5f;
     private float lastSwing;
+
+    [SerializeField] private AudioSource slashSoundEffect;
 
     private void Awake()
     {
@@ -40,6 +42,7 @@ public class Weapon : Collidable
             {
                 lastSwing = Time.time;
                 Swing();
+                slashSoundEffect.Play();
             }
         }
     }
