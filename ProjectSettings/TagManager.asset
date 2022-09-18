@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fighter
+  - SpawnPoint
   layers:
   - Default
   - TransparentFX
@@ -13,11 +14,11 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - SpawnPoint
   - Blocking
   - Actor
   - Weapon
-  - 
+  - Interactable
   - 
   - 
   - 
@@ -45,14 +46,14 @@ TagManager:
   - name: Floor
     uniqueID: 2017214309
     locked: 0
-  - name: Actor
-    uniqueID: 2478799389
-    locked: 0
   - name: Wall
     uniqueID: 3783731881
     locked: 0
   - name: Interactable
     uniqueID: 487927647
+    locked: 0
+  - name: Actor
+    uniqueID: 2478799389
     locked: 0
   - name: Weapon
     uniqueID: 3054911781

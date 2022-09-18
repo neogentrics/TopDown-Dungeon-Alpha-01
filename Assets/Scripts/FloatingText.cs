@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class FloatingText
@@ -15,7 +14,7 @@ public class FloatingText
     {
         active = true;
         lastShown = Time.time;
-        go.SetActive(true);
+        go.SetActive(active);
     }
 
     public void Hide()

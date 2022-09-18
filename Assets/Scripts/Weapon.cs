@@ -6,7 +6,7 @@ using UnityEngine;
 public class Weapon : Collidable
 {
     // Damage Struct
-    public int[] damagePoint = { 1, 2, 3, 4, 5, 6, 7};
+    public int[] damagePoint = { 3, 6, 9, 12, 15, 18, 25};
     public float[] pushForce = { 2.0f, 2.3f, 2.5f, 3.2f, 3.4f, 3.8f, 4.2f};
 
     // Upgrade
@@ -36,7 +36,7 @@ public class Weapon : Collidable
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (Time.time - lastSwing > pushForce[weaponLevel])
+            if (Time.time - lastSwing > coolDown/*pushForce[weaponLevel]*/)
             {
                 lastSwing = Time.time;
                 Swing();

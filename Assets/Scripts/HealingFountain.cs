@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class HealingFountain : Collidable
 {
-    public int healingAmount = 1;
+    
+
+    public int healingAmount = 100;
 
     private float healCooldown = 1.0f;
     private float lastHeal;

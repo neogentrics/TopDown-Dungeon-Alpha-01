@@ -1,0 +1,4648 @@
+fileFormatVersion: 2
+guid: 62ed671f8f65e614aa25968d36530a9e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PortalAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4984432c11679f74fbf49bb287fabd0e
+      internalID: -935703122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb46d2a415e90e41a402761a0097a99
+      internalID: 1523935010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9795cb654f1dfba47a4c2fbd675c2bce
+      internalID: -1420486012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0608a45507b948842891d8103bae27c6
+      internalID: -1420317159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a11a1a850a9d74bb67a0dd0853e487
+      internalID: -2052823322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a21dd3f7f39faa40891b80a07ba74e0
+      internalID: -1371601600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fada4f3a514fb48498f49a331d6db720
+      internalID: 668501850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddca1e39ec1916843a24ebc44a46db8d
+      internalID: -1154362452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cd6887014d1494d8a89bc5397a4583
+      internalID: 1467384239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd2a1c08ce8e43418afe9376a2495d8
+      internalID: -369094337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900f36b778404124f9bdb4175cb73e73
+      internalID: -1964408300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5645f5830a74e34abf56575190e06ef
+      internalID: 1553663567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0f1ced83175644db8e2e8e8bfea342
+      internalID: 1732865038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796b910c6e593a94a92644c69b539df4
+      internalID: 1734304750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2f699e669880442ba21f733c918ec2
+      internalID: -480074801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcb72a3365e33b4f89fadba6f939f1f
+      internalID: -1545854971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bb8d3a0dbc6034ebfafb484b28877b
+      internalID: -1265351866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0160f6ba35fdb5d42a1542eb2a9a4f96
+      internalID: 1533481699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab73f8e35e683e74b95edc2c49ce5e64
+      internalID: 258556516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a5c1787d2c0e04791047e94df51e00
+      internalID: -1290813256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb61bd7b20138d4aa6dbb3ef5558566
+      internalID: -1298712328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456db9e934231a7478215be9e600c08d
+      internalID: -984384318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62542bb1cf3f12a4ab2328a8eebbb360
+      internalID: -42204418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c3d6dc9ac311546a67ab745da3f42a
+      internalID: -638782359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92be493816447284e8a1cc5409d45389
+      internalID: 880391538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_25
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4b629b6adcabe42986aad7ac2a8700
+      internalID: 1453765309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_26
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a806fd27b3e464ca27b60163d0c853
+      internalID: -796182311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_27
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63416a503e3ad944585963cb660adfe7
+      internalID: 2048798954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_28
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ca65edde666ee46a0dd3f0dae2832b
+      internalID: -133597594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_29
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59371072523974f48a578bef39367f8f
+      internalID: 2067164431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708e6ec1435a5ce48bbe3a4099af61be
+      internalID: -250430138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_31
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a82a6fa2d6c02648ae6c9a6863955aa
+      internalID: -1175237444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_32
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac10d51e6c68a9648aa940a436dbb424
+      internalID: 2050126863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_33
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fc3f355b3f64048ab5905d23c229e9
+      internalID: -2110835855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_34
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f3eb057a5a1ff49bd8f752706455d5
+      internalID: -355069068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_35
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6d2e158b75c8549a0e989a31edc71a
+      internalID: 1295105282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_36
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80966fc524448404b9c2718eabea296d
+      internalID: 1509653087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_37
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c5d2179ce705d479009633c184b135
+      internalID: 856107090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_38
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3ae42f146504c48ab9320cda3e61f4
+      internalID: -1272227808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_39
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608c0e420b6af5649905ecf70499b048
+      internalID: 1693696435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_40
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fe960ecd55c94428afa8118627a868
+      internalID: 1154073277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_41
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce660b9702ceb98479121d72e6b2d07f
+      internalID: -1784330863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_42
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06ab6d30d0142c4db014407cf5f887a
+      internalID: 1497616651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_43
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1645792e8f7be8d4da0f42a2e6729bb5
+      internalID: 1853621474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_44
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736c06beb4c53844495169a6d5887ee5
+      internalID: 362470361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b40647f375a0ad4eb0e21211a7bf6a2
+      internalID: 708898179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_46
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1cf4c918ee50d4ea32f3d73071ca8f
+      internalID: -405650366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_47
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddf8dc034ba0894d8a0b6d88a6d4d2b
+      internalID: 333284982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_48
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c724c834c34a1478a893afa5cb9aef
+      internalID: -1467207826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_49
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093c76d64872963489872eea2505f105
+      internalID: 1727342590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_50
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f6d119fc4535049bb3eaf06a76c273
+      internalID: -652581563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_51
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fa2c0118405f3469df84b87984babb
+      internalID: -1751446526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_52
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42231acf45a2b3a45ba1d85d19f3d416
+      internalID: 651758240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_53
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7a9536c36b7784f8b75084fc70259a
+      internalID: 1101608437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_54
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d751be540e91e9542907ecad56ad53c2
+      internalID: 2060922990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_55
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3feff323b4bd9c478be22966c573ae9
+      internalID: -1626564520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_56
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293608adecef1fd408856b461056da1f
+      internalID: -1912479547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_57
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0beb1005f583fdc4bbaddc34bad251e3
+      internalID: -611201965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_58
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063ddce0147b0d748ba94307646d3a9b
+      internalID: -2042026537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_59
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4f44d814535634b8a3d6d4c3f47d5f
+      internalID: 248966577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7ab3f4b098b3047a7721914a7ad2ee
+      internalID: -425959997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_61
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ceb146d916bda4b8a793720625fe7d
+      internalID: 1799743548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_62
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0213d268d3299843b1438cf521dba5b
+      internalID: 1571547539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_63
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9c0dc5f44e8724592069dd5d0c55d7
+      internalID: 28571150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_64
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9000b35a3fae354198d98eb7591139e
+      internalID: 16849635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_65
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4555e3cf3334e845bd2e9c4f0a9c24e
+      internalID: 604852174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_66
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9c42aa078d83f4b8f683dc51a2053e
+      internalID: 1320849834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_67
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04af19af53b3f642bc7805bf2df6c12
+      internalID: 1042812030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_68
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ae29327bdd16140bdff4dc8294a0c0
+      internalID: -2025694787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_69
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c1ab3cf2a7a374183877c96be37256
+      internalID: -1619555721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_70
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39978e02d55787f4fbca4fed8cb20161
+      internalID: -973495503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_71
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6b452f43bdb9c459e66f974f394f2e
+      internalID: -345590124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_72
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d5b605bb1d9d94984f0acfed603e68
+      internalID: -705495209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_73
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23d1cdf45742974d9a560dd57ec13df
+      internalID: -793086385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_74
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97d98d910a3b8b44a85a6d6e18a382a
+      internalID: -1916424732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a70b8a3e9a44c4b8627805e05bf6d1
+      internalID: -1499419800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_76
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88592cf45ea628442a062066720386a7
+      internalID: -1205396312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_77
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3127778fe238b4f468cca562d6a615b6
+      internalID: 1871552330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_78
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b415138422a215143bc8bad0a3a29580
+      internalID: -1240900024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_79
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca9fd0f3b2a40f419aa0d4e0d289375
+      internalID: -1979825917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_80
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f1fd963939d794586dd46cd5956863
+      internalID: 1783009342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_81
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83184462a8680164fbcddc26d5e98961
+      internalID: -2106348212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_82
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6528f3af659bd424a95fe61e9f8c7477
+      internalID: -1347030349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_83
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee549f557278b145b16ec5ad0d24b2f
+      internalID: 166009008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_84
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985e38e2bfd9c80479513414a471b900
+      internalID: 1870193127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_85
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5804fb2e250d19a4d8eabfc446577e70
+      internalID: -1868621354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_86
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c0580142bcfcc4e94c2c244ddd9766
+      internalID: -1532143311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_87
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cea4fd55082254ba558299512ff6a5
+      internalID: -1754515216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_88
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d350c8e4c3b07be48b5fea807315b807
+      internalID: 904419634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_89
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbecd837d967d15479e863c94fde61e0
+      internalID: 1071331507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13a930e5607fab4485eff9e4a8575b3
+      internalID: -1668585597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_91
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d609310df92e2c0418f315d720e56508
+      internalID: -626682351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_92
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8427e3a69cbf34dadd8d35b8617408
+      internalID: -2036837256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_93
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd08b7a986f9484a8ef495e4d9b212d
+      internalID: -667172540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_94
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b505d965c43045d4fa604763b48b9f11
+      internalID: 1297948019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_95
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b606abf7db948b84a9336e6ee948724a
+      internalID: 1224367214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_96
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3354abdfae0b3438119eea1a57e31f
+      internalID: -1797428223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_97
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d6ec451d140934ba48755787902f9b
+      internalID: -112161197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_98
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd64c60c7c83aa43bcbae9ff8988775
+      internalID: -1667034624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_99
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5601110e5deddc141900388b5dfc58b1
+      internalID: 703594916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_100
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c93a1c403358246a1b6eafc015a7ef
+      internalID: -514318832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_101
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dc2c3d5fc53764292131f77698d3e0
+      internalID: 298547315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_102
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7c706a2e25502468164c05d38d6c4e
+      internalID: -310985108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_103
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c53bd0a9144774b90a312d49d47a94
+      internalID: 1749153998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_104
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabf5f00f1dd94e4b9d000961e2776d6
+      internalID: -320385925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30af3cdb05a0f9d40817c31e34ded1ae
+      internalID: 1283318988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_106
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d492544572e58479e93f8152fa46ea
+      internalID: -1313579602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_107
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67691d61c81fc145b11f3e2c5f994d0
+      internalID: 2063998559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_108
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bfb25cb6905c246be4c1dd80502329
+      internalID: 339280915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_109
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fb372b5547b1d4c9b35853d7e30991
+      internalID: -941791819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_110
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bffa6f82034c424090752b0ee68e714
+      internalID: 1388705077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_111
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299cc898a63db58469a18f497697dd6a
+      internalID: 372377593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_112
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e45567fc33239e4c8e7a8eee8597578
+      internalID: -1795542496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_113
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147f592204dc04b439a927042b2a56d7
+      internalID: -5821120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_114
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f480219ef07229429d823e05e2c2cb1
+      internalID: 282393150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_115
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a828661554f5c4bb7014306c90a4f4
+      internalID: 121635545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_116
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224b7beffac6fdf45b609e18664456bc
+      internalID: 1145591218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_117
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6f145db4461f549aa83f44e4cb649c
+      internalID: -362629337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_118
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4609c534ca738024d987b1b68ec0c81a
+      internalID: -587783575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_119
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d813b3ac66b89564eb2cf9391863545f
+      internalID: 2101165720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f354acb5fe9976c4b978410388dc7b7c
+      internalID: 975035075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_121
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e8dadfe1312f6459d67a4393e43783
+      internalID: -1258952765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_122
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1956b209da73324ea9bd4727b8928ec
+      internalID: 327900654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_123
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff66732954867348a85a650556d590f
+      internalID: -1047507762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_124
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6789b3bfc9f635245ba9695197d95347
+      internalID: -1724465670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_125
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c2e2c57be99f04ab215aef39903b51
+      internalID: 287611044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_126
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4b216cbbdac314a8e8e5401e3d51d4
+      internalID: -302594229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_127
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5435b8723f9e122469dcfbb076c63c2c
+      internalID: -1083865013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_128
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf9a605636fb2a40a5155897e12ca91
+      internalID: -1923038169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_129
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3e46b955934274c92950cd51fcf4d3
+      internalID: 1643386329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_130
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b4138d5f04d184486ab15c9e977942
+      internalID: -1565105483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_131
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b95c8e01010e36498946ffa2d2a93e3
+      internalID: 689503097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_132
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba2b0d0af58e8b4289d35ca799ae005
+      internalID: 2030266992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_133
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87b65e0c2011c542b51ab025dcc73e0
+      internalID: -840428030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_134
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d19b12dfdd01a74e993a5a39913ecf5
+      internalID: -129041068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e38916cde4dfc445a7487ad60ba9ef4
+      internalID: -1726805242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_136
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136c9fd75c043a948ba667741dc3112c
+      internalID: 1953426737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_137
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1471df722656f0e489a46364d9aa46e3
+      internalID: 134655650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_138
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720cd3a9a1dad124c93f385f8a444ff3
+      internalID: -2061405931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_139
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f137f04bc38dd1141822c923361246dc
+      internalID: 1893621145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_140
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb89b838a2bc3640a1945cd1edeefc6
+      internalID: 373552101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_141
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863df30fa2383c444bd5fb0d00426252
+      internalID: 66307062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_142
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1b74e906672c04198bba7b593eaa62
+      internalID: -895044977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_143
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ff92b5e166c324ba2bf6b46031175f
+      internalID: 1023386485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_144
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8581a9f10dcee48a8a0140bebb5ee3
+      internalID: -429882775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_145
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f539d063060a24eafa49be20f0540a
+      internalID: -119280999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_146
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c630e4a51aa0eb842b7a526c97bef506
+      internalID: 1086386550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_147
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2cc167ddefdd7439a7c70de7782e62
+      internalID: -1166080433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_148
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3967e58a135fa2c47818c9095b063672
+      internalID: 2066051776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_149
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8c5dbd2af5359489d5573576b5b2d1
+      internalID: -1661888194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3254c1ebbd696346805febc12bfa668
+      internalID: -652498889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_151
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e89d958dc9d98749a8b3bb0ef25726b
+      internalID: -509434833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_152
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6fae96cb163ed4685abcf67fb41a1c
+      internalID: -992537563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_153
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a24d78d9e8138f458be9daf487838ce
+      internalID: -1356625726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_154
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a22c504f03005499361d686bba0465
+      internalID: -1287359880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_155
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd491725d8e7b134d9f2956c8819efe0
+      internalID: 2120513261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_156
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07b641301c089440bc9cba3b6ca1e49
+      internalID: 1364684090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_157
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a0abb5d642477468773ce4e18694b8
+      internalID: -4324410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_158
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc4e3a61e5657f40942e03ff2b23e59
+      internalID: 44565532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_159
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93cf560a5843224ca18d5fc411cafa6
+      internalID: -812922595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_160
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab8cf1dc13f51640815536e9448fc49
+      internalID: 1769114640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_161
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a1a6823c4520840be49bdc4a2b1fb9
+      internalID: 1800116014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_162
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e83f04ebbbeed4ca5ee687cc37e884
+      internalID: 1442878222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_163
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d87673b4e85cf42bdc9e885649cb52
+      internalID: -1142875022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_164
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a74ba284614da4bb36faca701b5649
+      internalID: 2105808167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7659ebbd8cafc9f47bcb7a0454a72251
+      internalID: -1444873947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_166
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6837e8f9565724ebdf66feb18ef6fd
+      internalID: 203012373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_167
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b492a2172487cfc46bb1814cef08ca45
+      internalID: 1594898541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_168
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de032a5b63f863e40b069215c63e3c88
+      internalID: 618766411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_169
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34659cd97cef03440a32c28f4cfc01d3
+      internalID: 867186884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_170
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8359e5e6dbdb15d4bbd30403b6ff4529
+      internalID: -973152199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_171
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86aa1b825cb3cc642a492b32b0ce13c6
+      internalID: 1776734980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_172
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5950fa67212cc7a47811eb008a457005
+      internalID: 2037573640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_173
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be36158bf0769f840883e0c754bb9c3c
+      internalID: -1298821211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_174
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9904a5af8091d6747bdab86c190c69f9
+      internalID: 1863079639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_175
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bebcb3d25d8404bbe8a5a5edfec848
+      internalID: -1842224029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_176
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edba1a8165d88c34ebc360293bd7fab1
+      internalID: 1285121317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_177
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0120c5f005450dc42912f5580469c777
+      internalID: 1220344490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_178
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddfe9cd76e41474990418b9f66ee8c8
+      internalID: 1299383144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_179
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d593f2717c1ece34bbdb0ff57d72f72e
+      internalID: 947202030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07067fb2a71d1e6459937fe222005f4b
+      internalID: -2056226487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_181
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7013d035a147ee54e93d324d50ec6ff7
+      internalID: 1552755250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_182
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f127ccbd282b1e498f264038049f715
+      internalID: -1245669756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_183
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1e258b8e23121458c68ad4402a36ec
+      internalID: 1431525697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_184
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6352ae773345a9f48b2aedcad4d480b2
+      internalID: 499031824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_185
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55cab54cd42e41489d86f760f127d3f
+      internalID: -1277621838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_186
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d1f4a3251dc574c98c1ec3869b59e6
+      internalID: 956646502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_187
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360848acd4b40394193aa4f8d006767f
+      internalID: -1895078086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_188
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201a48b1a3a820c45ab8456bb55e566f
+      internalID: 423389850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_189
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57de6bf57ffd93b4d8a2b14ff5feb31c
+      internalID: -35919176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_190
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e09cce67ebcee846b7eadb81037e22b
+      internalID: -712201776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_191
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038fbd672d5073e45ae6848026d41e0d
+      internalID: 2112168945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_192
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ea5b332c2c6a646844ed0968b9ba28
+      internalID: 490315400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_193
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b09a014b96b7a4193f1b7197642085
+      internalID: -1518867231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_194
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 770
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e781be7ae84d44491e698bad84d0a1
+      internalID: -2065899342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 385
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f7fbbcaddc72846b8e6e7acf75afa0
+      internalID: 1602980532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_196
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 385
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d9bce1773bfa5408a6fb08e6dece45
+      internalID: -1547139111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_197
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 385
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a57ed14a875e9248ba49f657610a885
+      internalID: -1517452762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_198
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 385
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bec7e76968f43c47aefdb1a4dae0062
+      internalID: -1738229854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_199
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 385
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a94c456de140b24db455b4eda4f9587
+      internalID: 915936204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_200
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 385
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3632964475001864194e28b726bb4e89
+      internalID: 8140015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_201
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 385
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae105267e034ab45b8184ca17346d3d
+      internalID: -1868889350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalAtlas_202
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 385
+        width: 385
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97dcd8aa0c2d4474d8d7f4148e46bc1f
+      internalID: -760734764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PortalAtlas_183: 1431525697
+      PortalAtlas_168: 618766411
+      PortalAtlas_136: 1953426737
+      PortalAtlas_102: -310985108
+      PortalAtlas_32: 2050126863
+      PortalAtlas_8: 1467384239
+      PortalAtlas_85: -1868621354
+      PortalAtlas_121: -1258952765
+      PortalAtlas_4: -2052823322
+      PortalAtlas_144: -429882775
+      PortalAtlas_61: 1799743548
+      PortalAtlas_147: -1166080433
+      PortalAtlas_186: 956646502
+      PortalAtlas_64: 16849635
+      PortalAtlas_72: -705495209
+      PortalAtlas_94: 1297948019
+      PortalAtlas_38: -1272227808
+      PortalAtlas_7: -1154362452
+      PortalAtlas_215: -1221393013
+      PortalAtlas_29: 2067164431
+      PortalAtlas_0: -935703122
+      PortalAtlas_174: 1863079639
+      PortalAtlas_167: 1594898541
+      PortalAtlas_30: -250430138
+      PortalAtlas_40: 1154073277
+      PortalAtlas_137: 134655650
+      PortalAtlas_123: -1047507762
+      PortalAtlas_33: -2110835855
+      PortalAtlas_120: 975035075
+      PortalAtlas_73: -793086385
+      PortalAtlas_14: -480074801
+      PortalAtlas_206: -309505192
+      PortalAtlas_75: -1499419800
+      PortalAtlas_117: -362629337
+      PortalAtlas_97: -112161197
+      PortalAtlas_46: -405650366
+      PortalAtlas_222: -1025519888
+      PortalAtlas_162: 1442878222
+      PortalAtlas_1: 1523935010
+      PortalAtlas_194: -2065899342
+      PortalAtlas_212: -2105796782
+      PortalAtlas_52: 651758240
+      PortalAtlas_115: 121635545
+      PortalAtlas_145: -119280999
+      PortalAtlas_103: 1749153998
+      PortalAtlas_2: -1420486012
+      PortalAtlas_181: 1552755250
+      PortalAtlas_141: 66307062
+      PortalAtlas_176: 1285121317
+      PortalAtlas_122: 327900654
+      PortalAtlas_51: -1751446526
+      PortalAtlas_93: -667172540
+      PortalAtlas_49: 1727342590
+      PortalAtlas_164: 2105808167
+      PortalAtlas_182: -1245669756
+      PortalAtlas_58: -2042026537
+      PortalAtlas_24: 880391538
+      PortalAtlas_203: -2078851329
+      PortalAtlas_114: 282393150
+      PortalAtlas_211: -168873486
+      PortalAtlas_209: -1418641252
+      PortalAtlas_127: -1083865013
+      PortalAtlas_175: -1842224029
+      PortalAtlas_34: -355069068
+      PortalAtlas_53: 1101608437
+      PortalAtlas_224: -769829890
+      PortalAtlas_87: -1754515216
+      PortalAtlas_19: -1290813256
+      PortalAtlas_10: -1964408300
+      PortalAtlas_25: 1453765309
+      PortalAtlas_22: -42204418
+      PortalAtlas_68: -2025694787
+      PortalAtlas_198: -1738229854
+      PortalAtlas_66: 1320849834
+      PortalAtlas_208: -1083840759
+      PortalAtlas_154: -1287359880
+      PortalAtlas_81: -2106348212
+      PortalAtlas_217: -901327186
+      PortalAtlas_56: -1912479547
+      PortalAtlas_71: -345590124
+      PortalAtlas_84: 1870193127
+      PortalAtlas_205: 615492402
+      PortalAtlas_132: 2030266992
+      PortalAtlas_98: -1667034624
+      PortalAtlas_99: 703594916
+      PortalAtlas_44: 362470361
+      PortalAtlas_218: 435874883
+      PortalAtlas_124: -1724465670
+      PortalAtlas_221: -580010024
+      PortalAtlas_177: 1220344490
+      PortalAtlas_17: 1533481699
+      PortalAtlas_3: -1420317159
+      PortalAtlas_91: -626682351
+      PortalAtlas_178: 1299383144
+      PortalAtlas_36: 1509653087
+      PortalAtlas_173: -1298821211
+      PortalAtlas_195: 1602980532
+      PortalAtlas_104: -320385925
+      PortalAtlas_82: -1347030349
+      PortalAtlas_9: -369094337
+      PortalAtlas_201: -1868889350
+      PortalAtlas_213: 1373681215
+      PortalAtlas_207: -1853341703
+      PortalAtlas_77: 1871552330
+      PortalAtlas_112: -1795542496
+      PortalAtlas_15: -1545854971
+      PortalAtlas_50: -652581563
+      PortalAtlas_78: -1240900024
+      PortalAtlas_113: -5821120
+      PortalAtlas_95: 1224367214
+      PortalAtlas_125: 287611044
+      PortalAtlas_63: 28571150
+      PortalAtlas_43: 1853621474
+      PortalAtlas_86: -1532143311
+      PortalAtlas_160: 1769114640
+      PortalAtlas_140: 373552101
+      PortalAtlas_171: 1776734980
+      PortalAtlas_48: -1467207826
+      PortalAtlas_70: -973495503
+      PortalAtlas_223: -116204856
+      PortalAtlas_220: 2128255824
+      PortalAtlas_100: -514318832
+      PortalAtlas_80: 1783009342
+      PortalAtlas_65: 604852174
+      PortalAtlas_109: -941791819
+      PortalAtlas_12: 1732865038
+      PortalAtlas_6: 668501850
+      PortalAtlas_148: 2066051776
+      PortalAtlas_116: 1145591218
+      PortalAtlas_189: -35919176
+      PortalAtlas_170: -973152199
+      PortalAtlas_184: 499031824
+      PortalAtlas_200: 8140015
+      PortalAtlas_202: -760734764
+      PortalAtlas_54: 2060922990
+      PortalAtlas_214: -318846914
+      PortalAtlas_105: 1283318988
+      PortalAtlas_197: -1517452762
+      PortalAtlas_67: 1042812030
+      PortalAtlas_107: 2063998559
+      PortalAtlas_31: -1175237444
+      PortalAtlas_89: 1071331507
+      PortalAtlas_59: 248966577
+      PortalAtlas_106: -1313579602
+      PortalAtlas_16: -1265351866
+      PortalAtlas_88: 904419634
+      PortalAtlas_131: 689503097
+      PortalAtlas_204: 1917770426
+      PortalAtlas_166: 203012373
+      PortalAtlas_13: 1734304750
+      PortalAtlas_39: 1693696435
+      PortalAtlas_119: 2101165720
+      PortalAtlas_165: -1444873947
+      PortalAtlas_153: -1356625726
+      PortalAtlas_158: 44565532
+      PortalAtlas_45: 708898179
+      PortalAtlas_5: -1371601600
+      PortalAtlas_23: -638782359
+      PortalAtlas_110: 1388705077
+      PortalAtlas_27: 2048798954
+      PortalAtlas_111: 372377593
+      PortalAtlas_155: 2120513261
+      PortalAtlas_188: 423389850
+      PortalAtlas_139: 1893621145
+      PortalAtlas_157: -4324410
+      PortalAtlas_163: -1142875022
+      PortalAtlas_101: 298547315
+      PortalAtlas_150: -652498889
+      PortalAtlas_169: 867186884
+      PortalAtlas_60: -425959997
+      PortalAtlas_55: -1626564520
+      PortalAtlas_79: -1979825917
+      PortalAtlas_28: -133597594
+      PortalAtlas_92: -2036837256
+      PortalAtlas_180: -2056226487
+      PortalAtlas_118: -587783575
+      PortalAtlas_179: 947202030
+      PortalAtlas_143: 1023386485
+      PortalAtlas_146: 1086386550
+      PortalAtlas_18: 258556516
+      PortalAtlas_47: 333284982
+      PortalAtlas_142: -895044977
+      PortalAtlas_57: -611201965
+      PortalAtlas_126: -302594229
+      PortalAtlas_156: 1364684090
+      PortalAtlas_37: 856107090
+      PortalAtlas_134: -129041068
+      PortalAtlas_210: 1088249394
+      PortalAtlas_216: -803898329
+      PortalAtlas_20: -1298712328
+      PortalAtlas_74: -1916424732
+      PortalAtlas_149: -1661888194
+      PortalAtlas_76: -1205396312
+      PortalAtlas_193: -1518867231
+      PortalAtlas_130: -1565105483
+      PortalAtlas_11: 1553663567
+      PortalAtlas_152: -992537563
+      PortalAtlas_135: -1726805242
+      PortalAtlas_96: -1797428223
+      PortalAtlas_69: -1619555721
+      PortalAtlas_129: 1643386329
+      PortalAtlas_185: -1277621838
+      PortalAtlas_35: 1295105282
+      PortalAtlas_62: 1571547539
+      PortalAtlas_190: -712201776
+      PortalAtlas_159: -812922595
+      PortalAtlas_83: 166009008
+      PortalAtlas_41: -1784330863
+      PortalAtlas_138: -2061405931
+      PortalAtlas_108: 339280915
+      PortalAtlas_172: 2037573640
+      PortalAtlas_187: -1895078086
+      PortalAtlas_196: -1547139111
+      PortalAtlas_219: 1484927251
+      PortalAtlas_199: 915936204
+      PortalAtlas_192: 490315400
+      PortalAtlas_42: 1497616651
+      PortalAtlas_26: -796182311
+      PortalAtlas_161: 1800116014
+      PortalAtlas_191: 2112168945
+      PortalAtlas_90: -1668585597
+      PortalAtlas_128: -1923038169
+      PortalAtlas_151: -509434833
+      PortalAtlas_21: -984384318
+      PortalAtlas_133: -840428030
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

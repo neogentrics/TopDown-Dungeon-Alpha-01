@@ -135,7 +135,6 @@ public class GameManager : MonoBehaviour
      * INT gold
      * INT experience
      * INT weaponLevel
-     * 
      */
 
     public void SaveState()
@@ -170,6 +169,6 @@ public class GameManager : MonoBehaviour
         // Change weapon level;
         weapon.SetWeaponLevel(int.Parse(data[3]));
 
-      
+        player.transform.position = GameObject.Find("SpawnPoint").transform.position;
     }
 }

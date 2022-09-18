@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 
 
@@ -11,7 +12,8 @@ public class floatingTextManager : MonoBehaviour
     public GameObject textContainer;
     public GameObject textPrefab;
 
-    private List<FloatingText> floatingTexts = new List<FloatingText> ();
+    private List<FloatingText> floatingTexts = new List<FloatingText>();
+
 
     private void Start()
     {
@@ -47,8 +49,8 @@ public class floatingTextManager : MonoBehaviour
             txt = new FloatingText();
             txt.go = Instantiate(textPrefab);
             txt.go.transform.SetParent(textContainer.transform);
-           // txt.txt = txt.go.GetComponent<TextMeshProUGUI>;
-
+            txt.txt = txt.go.GetComponent<TextMeshProUGUI>();
+            
             floatingTexts.Add(txt);
         }
 

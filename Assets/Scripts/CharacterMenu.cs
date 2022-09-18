@@ -85,7 +85,7 @@ public class CharacterMenu : MonoBehaviour
         int currLevel = GameManager.instance.GetCurrentLevel();
         if (currLevel == GameManager.instance.xpTable.Count)
         {
-            xpText.text = GameManager.instance.experience.ToString() + " total experience points"; // Display total XP 
+            xpText.text = GameManager.instance.experience.ToString() + " Max XP Level"; // Display total XP 
             xpBar.localScale = Vector3.one;
         }
         else
@@ -93,7 +93,7 @@ public class CharacterMenu : MonoBehaviour
             int prevLevelXp = GameManager.instance.GetXpToLevel(currLevel - 1);
             int currLevelXp = GameManager.instance.GetXpToLevel(currLevel);
 
-            int diff = currLevel - prevLevelXp;
+            int diff = currLevelXp - prevLevelXp;
             int currXPIntoLevel = GameManager.instance.experience - prevLevelXp;
 
             float completionRatio = (float)currXPIntoLevel / (float)diff;

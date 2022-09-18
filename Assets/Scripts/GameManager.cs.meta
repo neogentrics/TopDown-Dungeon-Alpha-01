@@ -3,7 +3,13 @@ guid: 7735ce8ce0aa6c8419f0a14e3d416a12
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - player: {fileID: 688134078141322647, guid: 6e1a4035395fd0d4fa5d5b87b87d04dd, type: 3}
+  - weapon: {instanceID: 0}
+  - FloatingTextmanager: {fileID: 7379235240334454159, guid: da36c97c50b3ba64492c0835f47662d5, type: 3}
+  - hitpointBar: {instanceID: 0}
+  - hud: {fileID: 7857773340065836166, guid: 4ad432eb461d3334a8235b7ea55b3e95, type: 3}
+  - menu: {fileID: 2132177190136102600, guid: ca5130e405f9a5a499c1f21cd3e0086a, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

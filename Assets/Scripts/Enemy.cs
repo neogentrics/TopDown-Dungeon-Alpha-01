@@ -6,8 +6,10 @@ using UnityEngine;
 
 public class Enemy : Mover
 {
+
     // Experience
     public int xpValue = 3;
+    public int goldAmount = 5;
 
     // Logic
     public float triggerLength = 0.3f;
@@ -85,6 +87,11 @@ public class Enemy : Mover
     {
         Destroy(gameObject);
         GameManager.instance.GrantXp(xpValue);
-        GameManager.instance.ShowText("+" + xpValue + " XP!", 25, Color.green, transform.position, Vector3.up * 40, 1.0f);
+        GameManager.instance.ShowText("+" + xpValue + " XP!", 25, Color.green, transform.position, Vector3.up * 50, 1.0f);
+        GameManager.instance.gold += goldAmount;
+        GameManager.instance.ShowText("+" + goldAmount + " Gold!", 25, Color.yellow, transform.position, Vector3.up * 25, 1.5f);
     }
+
+
+    
 }
